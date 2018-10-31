@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,700i" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" />
+	
+	
+	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="http://alvarotrigo.com/fullPage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="http://alvarotrigo.com/fullPage/examples/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu',
+				scrollingSpeed: 1000
+			});
+
+		});
+	</script>
+</head>
+<body>
+    <header class="header">
+    <nav class="menu">
+        <ul id="menu">                        
+            <li data-menuanchor="firstPage"><a href="#firstPage">Startseite</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Das Büro</a></li>
+			<li data-menuanchor="3rdPage"><a href="#3rdPage">Karriere</a></li>
+			<li data-menuanchor="4thpage"><a href="#4thpage">Kontakt</a></li>
+			<li class="right">07821 - 89 30</li>
+        </ul>
+    </nav>
+	<h1>J&F-projects<span>BUSINESS INtelligence COMPANY</span></h1>
+	</header>
+	<section id="fullpage">
+	<section class="mainPage" id="firstPage">
+		<div class="content">
+		<span>spezialisiert.</span>
+		<h2>Aauf statik auf FertigteilEbau auf Ihr Werk</h2>
+		<a href="">das Büro<span>&nbsp;&nbsp;&nbsp;</span></a>
+		</div>
+	</section>
+	<section class="about" id="secondPage">
+		
+	</section>
+	</section>
+</body>
+</html>
